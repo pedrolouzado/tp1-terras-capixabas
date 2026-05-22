@@ -1,0 +1,164 @@
+const dados = {
+
+    destinos: [
+
+         {
+            id: 7,
+
+            nome: "Pancas",
+            descricao: "Cidade capixaba famosa pelas montanhas e pelo turismo de aventura.",
+            conteudo: "Pancas, no noroeste do Espírito Santo, é conhecida pelas enormes formações rochosas e pelas paisagens naturais impressionantes. A região é muito procurada para prática de escalada, trilhas e ecoturismo.",
+            categoria: "Ecoturismo",
+            destaque: true,
+            imagem_principal: "assets/img/pancas3.jpg",
+            fotos: [
+
+                {
+                    titulo: "Pedras gigantes de Pancas",
+
+                    imagem: "assets/img/pancas2.jpeg"
+                },
+
+                {
+                    titulo: "Capadócia capixaba",
+
+                    imagem: "assets/img/pancas.jpg"
+                },
+
+                {
+                    titulo: "Balões de Pancas",
+
+                    imagem: "assets/img/pancas1.jpg"
+                }
+
+            ]
+        },
+
+
+        {
+            id: 2,
+            nome: "Pedra Azul",
+            descricao: "Paisagens montanhosas incríveis.",
+            conteudo: "Pedra Azul encanta turistas com clima agradável.",
+            categoria: "Serras",
+            destaque: true,
+            imagem_principal: "assets/img/pedraazul.jpg",
+
+            fotos: [
+
+                 {
+                    titulo: "Parque Estadual",
+                    imagem: "assets/img/parque.jpg"
+                },
+
+                {
+                    titulo: "Trilha das piscinas naturais",
+                    imagem: "assets/img/trilha.jpg"
+                },
+
+                
+                {
+                    titulo: "Lago do parque Pedra Azul",
+                    imagem: "assets/img/pedraazul1.jpg"
+                },
+
+                
+              
+            ]
+        },
+
+        {
+             id: 3,
+            nome: "Falésias de Marataízes",
+            descricao: "Falésias impressionantes com vista incrível para o mar.",
+            conteudo: "As Falésias de Marataízes são um dos cenários naturais mais bonitos do Espírito Santo, combinando paredões coloridos, praias tranquilas e paisagens perfeitas para turismo e fotografia.",
+            categoria: "Praias",
+            destaque: true,
+            imagem_principal: "assets/img/falesias.jpg",
+            fotos: [
+
+    
+                {
+                    titulo: "Amanhecer",
+                    imagem: "assets/img/amanhecer.jpg"
+                },
+
+                
+                {
+                    titulo: "Falésias",
+                    imagem: "assets/img/marataizes.jpg"
+                },
+
+                
+                {
+                    titulo: "Praia em Marataízes",
+                    imagem: "assets/img/Vista.jpeg"
+                }
+
+            ]
+        },
+
+        {
+            id: 4,
+            nome: "Grande Buda de Ibiraçu",
+            descricao: "Uma das maiores estátuas de Buda do Ocidente.",
+            conteudo: "Localizado em Ibiraçu, no Espírito Santo, o Grande Buda é um importante ponto turístico e espiritual da região. A estátua impressiona pelo tamanho, pela arquitetura oriental e pela vista privilegiada cercada pela natureza.",
+            categoria: "Turismo Religioso",
+            destaque: true,
+            imagem_principal: "assets/img/buda.jpg",
+            fotos: [
+
+
+                {
+                    titulo: "Templo Zen de Ibiraçu",
+                    imagem: "assets/img/estatuas.jpg"
+                },
+
+                
+                {
+                    titulo: "Buda Gigante",
+                    imagem: "assets/img/cores.jpeg"
+                },
+                
+                {
+                    titulo: "Noite iluminada",
+                    imagem: "assets/img/noite.jpg"
+                }
+
+            ]
+        },
+
+        {
+            id: 5,
+            nome: "Monte Aghá",
+            descricao: "Um dos pontos mais famosos para trilhas e aventura no Espírito Santo.",
+            conteudo: "O Monte Aghá, localizado em Itapemirim, é conhecido por suas trilhas desafiadoras e pela vista panorâmica incrível do litoral capixaba. O local atrai turistas, aventureiros e amantes da natureza durante todo o ano.",
+
+            categoria: "Ecoturismo",
+            destaque: true,
+            imagem_principal: "assets/img/monte.jpg",
+            fotos: [
+
+                {
+                    titulo: "Vista do topo do Monte Aghá",
+
+                    imagem: "assets/img/vista.jpg"
+                },
+
+                {
+                    titulo: "Monte Aghá",
+
+                    imagem: "assets/img/monte1.jpeg"
+                },
+
+                {
+                    titulo: "Escalada",
+
+                    imagem: "assets/img/escalada.jpg"
+                }
+
+            ]
+        }
+
+    ]
+}
