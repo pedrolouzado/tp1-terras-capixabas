@@ -1,3 +1,16 @@
+const usuarioLogado = JSON.parse(sessionStorage.getItem("usuarioLogado"));
+
+if (!usuarioLogado) {
+    alert("Faça login para acessar esta página.");
+    window.location.href = "login.html";
+}
+
+if (!usuarioLogado.admin) {
+    alert("Você não possui permissão para acessar esta página.");
+    window.location.href = "index.html";
+
+}
+
 const API_URL = "http://localhost:3000/destinos";
 
 const formDestino = document.getElementById("form-destino");
