@@ -134,7 +134,9 @@
       "email": "admin@email.com",
       "senha": "123",
       "admin": true,
-      "favoritos": []
+      "favoritos": [
+        2
+      ]
     },
     {
       "id": 2,

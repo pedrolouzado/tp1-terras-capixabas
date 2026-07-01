@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "json-server --watch db/db.json --static public"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pedrolouzado/tp1-terras-capixabas.git"
@@ -22,3 +22,4 @@
     "json-server": "^0.17.4"
   }
 }
+
